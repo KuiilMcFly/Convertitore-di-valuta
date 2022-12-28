@@ -21,6 +21,7 @@ async function currencyOptions() {
 
 window.onload = function () {
   currencyOptions();
+  
 };
 
 //Mostrare opzioni valute selezionabili dall'API
