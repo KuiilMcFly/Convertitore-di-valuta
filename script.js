@@ -1,4 +1,3 @@
-
 //Selezionare elementi
 
 const select = document.querySelectorAll(".currency");
@@ -7,7 +6,7 @@ const num = document.getElementById("conversion-form");
 const result = document.getElementById("result");
 
 //chiamare API
-
+  
   async function CurrencyOptions(){
   try{
   const response = await fetch("https://api.frankfurter.app/currencies");
@@ -18,7 +17,12 @@ const result = document.getElementById("result");
   }
   };
 
+  window.onload=function(){
   CurrencyOptions();
+  }
+
+  
+
 
 
   //Mostrare opzioni valute selezionabili dall'API
