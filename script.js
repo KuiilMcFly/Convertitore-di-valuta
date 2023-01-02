@@ -1,7 +1,5 @@
 //Selezionare elementi
 
-//onload
-
 const select = document.querySelectorAll(".currency");
 const btn = document.getElementById("btn-converter");
 const num = document.getElementById("conversion-form");
